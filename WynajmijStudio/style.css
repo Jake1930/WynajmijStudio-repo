@@ -199,10 +199,10 @@ footer img{
     float: right;
 }
 
-/* --------------------- */
+/* ------------------------------------------------------------ */
 
 .price_and_contact{
-    padding: 100px 0 0 0;
+    padding: 200px 0 0 0;
 }
 
 .price{
@@ -270,4 +270,40 @@ footer img{
     height: 50px;
     background-color: #fff;
     font-style: italic;
+}
+
+
+/* ------------------------------------------------------------ */
+
+
+.team{
+    height: fit-content;
+}
+
+.team_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+.team_person{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.team_person_img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.team_person_description{
+    height: 200px;
+    padding: 20px 0;
+    text-align: center;
 }
