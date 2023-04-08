@@ -1,0 +1,273 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+h4{
+    font-size: 1em;
+}
+
+p{
+    font-size: .8em;
+}
+
+a{
+    text-decoration: none;
+    color: #75501c;
+}
+
+ion-icon{
+    font-size: 30px;
+    color: #dac2a8;
+}
+
+header{
+    height: 110vh;
+    width: 100vw;
+}
+
+.header-background{
+    position: absolute;
+    height: 110vh;
+    width: 100vw;
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    z-index: -1;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 50px;
+    gap: 10px;
+}
+
+.header-main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-main div{
+    width: 33.3vw;
+}
+
+header img{
+    position: relative;
+    top: 160px;
+    height: 50%;
+}
+
+.header-img{
+    display: flex;
+    justify-content: center;
+}
+
+.menu a{
+    font-size: 35px;
+}
+
+ul{
+    list-style: none;
+    height: 450px;
+    width: 200px;
+    background-color: hsla(130, 12%, 80%, 0.707);
+    border-radius: 0 0 0 200px;
+    padding: 20px 50px 50px 50px;
+    float: right;
+}
+
+ul li{
+    text-align: right;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+
+
+section{
+    width: 100vw;
+    height: 110vh;
+    display: flex;
+    background-color: white;
+}
+
+.description{
+    width: 50vw;
+    padding: 50px;
+}
+
+.description h1{
+    margin: 130px 30px 0 70px;
+}
+
+.text{
+    z-index: 1;
+}
+
+.description p{
+    font-size: .8em;
+    margin: 0 30px 0 70px;
+}
+
+.circle{
+    position: relative;
+    top: -60px;
+    height: 120px;
+    width: 120px;
+    background-color: #8fc0ad;
+    border-radius: 100px;
+}
+
+
+.photos{
+    width: 50vw;
+    padding: 70px;
+}
+
+.photos img{
+    width: 40vw;
+}
+
+
+footer{
+    height: fit-content;
+    background-color: #e9dccf;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+footer img{
+    height: 30%;
+}
+
+.google_maps{
+    width: 40vw;
+}
+
+.google_maps_content iframe{
+    box-shadow: 20px 20px 0 #366c5f;
+}
+
+.info{
+    width: 40vw;
+}
+
+.logo_small{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+}
+
+.info_1{
+    width: 400px;
+    height: 150px;
+    background-color: #8fc0ad;
+    padding: 20px;
+    font-size: .8em;
+    border-radius: 0 150px 0 0;
+    margin-bottom: 40px;
+    float: right;
+}
+
+.info_2{
+    width: 400px;
+    height: 150px;
+    background-color: #8fc0ad;
+    padding: 20px;
+    font-size: .8em;
+    text-align: right;
+    border-radius: 0 0 0 150px;
+    float: right;
+}
+
+/* --------------------- */
+
+.price_and_contact{
+    padding: 100px 0 0 0;
+}
+
+.price{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price h2{
+    margin-bottom: 40px;
+}
+
+.price p{
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.zl{
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.span_price{
+    font-size: .8em;
+    font-weight: lighter;
+}
+
+.contact{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 50px 0 0;
+}
+
+.title{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact form input{
+    border: 0;
+    border-bottom: 3px solid #8fc0ad;
+    width: 500px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    font-style: italic;
+}
+
+.contact form textarea{
+    border: 0;
+    border-bottom: 3px solid #8fc0ad;
+    width: 500px;
+    height: 50px;
+    background-color: #fff;
+    font-style: italic;
+}
