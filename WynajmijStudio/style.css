@@ -219,6 +219,7 @@ footer img{
 
 .price_and_contact{
     padding: 200px 0 0 0;
+    height: auto;
 }
 
 .price{
@@ -288,6 +289,7 @@ footer img{
     background-color: #fff;
     font-style: italic;
     padding: 5px 0;
+    resize: vertical;
 }
 
 
@@ -297,6 +299,7 @@ footer img{
 .team{
     display: block;
     height: fit-content;
+    margin-top: 150px;
 }
 
 .team h2, p{
@@ -330,4 +333,171 @@ footer img{
     height: 200px;
     padding: 20px 0;
     text-align: center;
+}
+
+
+
+/* -------------------------------RESPONSIVE--------------------------- */
+
+
+
+@media screen and (max-width: 767px) {
+    
+
+    body{
+        width: 100vw;
+    }
+
+    section{
+        flex-direction: column;
+    }
+
+
+    .header-background{
+        height: 110vh;
+    }
+
+    .menu a{
+        font-size: 25px;
+    }
+
+    header ul{
+        height: 235px;
+        width: 140px;
+        padding: 20px 25px 50px 0;
+    }
+
+    header ul li{
+        margin-bottom: 15px;
+    }
+
+    header img{
+        top: 15vw;
+        width: 200%;
+    }
+
+
+
+    /* ------------------------------------------- */
+
+
+
+    .description{
+        width: 100vw;
+        padding: 0;
+    }
+
+    .description h1{
+        margin: 60px 30px 0 70px;
+    }
+
+    .description p{
+        font-size: .7em;
+    }
+
+    .photos{
+        width: 100vw;
+        padding: 20px;
+    }
+
+    .photos img{
+        width: 90vw;
+    }
+
+
+
+    /* ---------------------------------------------- */
+
+
+
+    .price_and_contact{
+        padding: 260px 0 0 0;
+    }
+
+    .price{
+        width: 100vw;
+        padding: 0 20px;
+    }
+
+    .price p{
+        font-size: .7em;
+    }
+
+    .contact{
+        width: 100vw;
+        padding: 80px 0 0 0;
+    }
+
+    .contact form{
+        align-items: center;
+    }
+
+    .contact form input{
+        width: 300px;
+        font-size: .8em;
+    }
+
+    .contact form textarea{
+        width: 300px;
+        height: 50px;
+        font-size: .8em;
+    }
+
+
+    /* ------------------------------------------------------ */
+
+
+    .team{
+        padding: 0 20px;
+    }
+
+    .team p{
+        font-size: .7em;
+    }
+
+    .team_person{
+        width: 330px;
+        height: 540px;
+    }
+
+
+
+    /* --------------------------------------------------------- */
+
+
+
+    footer{
+        flex-direction: column;
+        padding: 20px;
+        justify-content: normal;
+        align-items: center;
+    }
+
+    .google_maps{
+        width: auto;
+        margin: 20px 20px;
+    }
+
+    footer iframe{
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo_small{
+        justify-content: center;
+        width: auto;
+        padding: 100px 0;
+    }
+
+    .info{
+        width: auto;
+    }
+
+    .info_1{
+        width: 350px;
+    }
+
+    .info_2{
+        width: 350px;
+    }
 }
