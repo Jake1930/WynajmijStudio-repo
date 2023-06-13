@@ -36,6 +36,15 @@ ion-icon{
     top: 80vh;
 }
 
+.preloader{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
 header{
     height: 110vh;
     width: 100vw;
@@ -43,6 +52,8 @@ header{
 
 .header-background{
     position: absolute;
+    top: 0;
+    left: 0;
     height: 130vh;
     width: 100vw;
     background-image: url(img/background.jpg);

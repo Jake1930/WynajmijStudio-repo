@@ -10,8 +10,13 @@
 </head>
 
 <body>
+    <div class="preloader">
+        <video width="100%" height="100%" autoplay>
+            <source src="img/Preloader.mp4" type="video/mp4">
+        </video>
+    </div>
     <header>
-        <div class="header-background"></div>
+        <div class="header-background" id="parallax-background"></div>
         <div class="header-main">
             <div class="social">
                 <a href="https://www.facebook.com/profile.php?id=100028848475102" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
@@ -23,7 +28,7 @@
             <div class="menu">
                 <ul>
                     <li><a href="subpages/gear.html">Sprzet</a></li>
-                    <li><a href="#">Eventy</a></li>
+                    <li><a href="subpages/events.html">Eventy</a></li>
                     <li><a href="#">Galeria</a></li>
                 </ul>
             </div>
@@ -148,6 +153,15 @@
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        let background = document.getElementById('parallax-background');
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            background.style.top = value * 0.45 + 'px';
+        })
+    </script>
 </body>
 
 </html>
