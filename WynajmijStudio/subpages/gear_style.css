@@ -6,7 +6,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-body{
+body, html{
     overflow-x: hidden;
     scroll-behavior: smooth;
     width: 100vw;
@@ -27,6 +27,10 @@ p{
 a{
     text-decoration: none;
     color: #75501c;
+}
+
+ul{
+    list-style: none;
 }
 
 header{
@@ -69,7 +73,7 @@ header a{
     font-size: 35px;
 }
 
-ul{
+header ul{
     list-style: none;
     height: 350px;
     width: 200px;
@@ -79,7 +83,7 @@ ul{
     float: right;
 }
 
-ul li{
+header ul li{
     text-align: right;
     margin-bottom: 30px;
     font-style: italic;
@@ -94,4 +98,126 @@ ul li{
 .description_static{
     text-align: center;
     width: 50%;
+}
+
+
+
+/* --------------------------------------------------------- */
+
+
+
+section{
+    width: 100vw;
+    height: min-content;
+}
+
+.gear{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 200px 0 200px 0;
+}
+
+section div{
+    width: 600px;
+    height: 300px;
+    background-color: hsla(130, 12%, 80%, 0.707);
+    margin: 30px;
+    border: 5px solid #366c60bf;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.74);
+    padding: 20px;
+}
+
+.first{
+    border-radius: 0 0 200px 0;
+}
+
+.second{
+    border-radius: 200px 0 0 0;
+}
+
+.third{
+    border-radius: 0 0 0 200px;
+}
+
+.fourth{
+    border-radius: 0 200px 0 0;
+}
+
+.gear li{
+    font-size: .8em;
+    margin-bottom: 10px;
+}
+
+.second, .third ul{
+    text-align: right;
+}
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+
+
+
+footer{
+    height: fit-content;
+    background-color: #e9dccf;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+footer img{
+    height: 30%;
+}
+
+.google_maps{
+    width: 40vw;
+}
+
+.google_maps_content iframe{
+    box-shadow: 20px 20px 0 #366c5f;
+}
+
+.info{
+    width: 40vw;
+}
+
+.logo_small{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+}
+
+.info_1{
+    width: 400px;
+    height: 150px;
+    background-color: #8fc0ad;
+    padding: 20px;
+    font-size: .8em;
+    border-radius: 0 150px 0 0;
+    margin-bottom: 40px;
+    float: right;
+}
+
+.info_1 p{
+    text-align: left;
+}
+
+.info_2{
+    width: 400px;
+    height: 150px;
+    background-color: #8fc0ad;
+    padding: 20px;
+    font-size: .8em;
+    text-align: right;
+    border-radius: 0 0 0 150px;
+    float: right;
+}
+
+.info_2 p{
+    text-align: right;
 }

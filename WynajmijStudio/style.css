@@ -6,7 +6,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-body{
+body, html{
     overflow-x: hidden;
     scroll-behavior: smooth;
     width: 100vw;
