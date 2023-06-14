@@ -8,6 +8,11 @@
     <title>Wynajmij Studio sprzęt</title>
 </head>
 <body>
+    <figure class="preloader" id="preloader">
+        <div class="box">
+
+        </div>
+    </figure>
     <header>
         <div class="header_left">
             <a href="../index.html"><img src="../img/logo_gear.png" alt="Logo wynajmij studio"></a>
@@ -93,5 +98,19 @@
             </div>
         </div>
     </footer>
+
+
+
+    <script>
+        const preloader = document.querySelector('#preloader');
+
+        preloader.classList.add('show-preloader');
+
+        window.addEventListener('load', function () {
+            setTimeout(function(){
+    	preloader.classList.remove('show-preloader');
+	    }, 500);
+        });
+    </script>
 </body>
 </html>
