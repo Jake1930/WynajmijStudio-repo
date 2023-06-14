@@ -394,16 +394,19 @@ footer img{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px 0;
+    align-items: center;
+    padding: 0;
+    margin: 0 5px;
 }
 
 .team_person_img{
+    position: relative;
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 10px -10px 0 #dac2a8;
     display: flex;
-    align-items: center;
-    text-align: center;
 }
 
 .team_person_description{
@@ -536,9 +539,9 @@ footer img{
         font-size: .7em;
     }
 
-    .team_person{
-        width: 330px;
-        height: 540px;
+    .team_person_img{
+        width: 320px;
+        height: 320px;
     }
 
 
@@ -683,11 +686,6 @@ footer img{
 
     .team p{
         font-size: .7em;
-    }
-
-    .team_person{
-        width: 330px;
-        height: 540px;
     }
 
 
