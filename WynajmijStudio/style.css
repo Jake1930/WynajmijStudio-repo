@@ -320,6 +320,22 @@ footer img{
     font-weight: lighter;
 }
 
+
+.things{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.things .box_thing{
+    width: 250px;
+    height: 80px;
+    border-radius: 0 80px 80px 0;
+    background-color: #8fc0ad;
+}
+
+
 .contact{
     width: 50vw;
     display: flex;
@@ -362,6 +378,37 @@ footer img{
     font-style: italic;
     padding: 5px 0;
     resize: vertical;
+}
+
+.buttons{
+    width: 500px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button_submit{
+    width: 200px;
+    height: 80px;
+    border-radius: 0 80px 0 0;
+    background-color: #8fc0ad;
+    font-size: .8em;
+    font-weight: bolder;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.button_clear{
+    width: 200px;
+    height: 80px;
+    border-radius: 0 0 0 80px;
+    background-color: white;
+    border: 3px solid #8fc0ad;
+    font-size: .8em;
+    font-weight: bolder;
+    padding: 5px;
+    cursor: pointer;
 }
 
 
@@ -523,6 +570,23 @@ footer img{
         width: 300px;
         height: 50px;
         font-size: .8em;
+    }
+
+
+    .buttons{
+        width: 300px;
+    }
+    
+    .button_submit{
+        width: 150px;
+        height: 60px;
+        font-size: .6em;
+    }
+    
+    .button_clear{
+        width: 150px;
+        height: 60px;
+        font-size: .6em;
     }
 
 
