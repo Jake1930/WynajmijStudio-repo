@@ -64,7 +64,7 @@ ion-icon{
     width: 100px;
     border-radius: 50px;
     background-color: #75501c;
-    animation: preloader-animation 3.25s 0s cubic-bezier(0.66, 0.4, 0.35, 0.61) infinite normal;
+    animation: preloader-animation 3.25s 0s cubic-bezier(0.67, 0.26, 0.22, 0.91) infinite normal;
     /* animation-name: preloader-animation;
     animation-duration: 2s; */
 }
