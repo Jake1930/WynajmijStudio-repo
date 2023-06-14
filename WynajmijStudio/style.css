@@ -397,6 +397,7 @@ footer img{
     padding: 5px;
     border: none;
     cursor: pointer;
+    color: black;
 }
 
 .button_clear{
@@ -409,6 +410,7 @@ footer img{
     font-weight: bolder;
     padding: 5px;
     cursor: pointer;
+    color: black;
 }
 
 
