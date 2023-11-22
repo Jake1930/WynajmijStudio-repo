@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
 }
 
 body, html{
@@ -35,140 +36,6 @@ ul{
 
 
 
-.preloader{
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    visibility: hidden;
-    opacity: 0;
-    background-color: hsl(129, 21%, 88%);
-    transition: opacity 400ms ease-in-out, visibility 0s 400ms;
-}
-
-.show-preloader{
-    visibility: visible;
-    opacity: 1;
-}
-
-.box{
-    height: 100px;
-    width: 100px;
-    border-radius: 50px;
-    background-color: #75501c;
-    animation: preloader-animation 3.25s 0s cubic-bezier(0.63, 0.12, 0.24, 0.94) infinite normal;
-}
-
-@keyframes preloader-animation {
-    
-    0%{
-        height: 100px;
-        width: 100px;
-        border-radius: 50px;
-    }
-    
-    25%{
-        width: 200px;
-        height: 80px;
-        border-radius: 0 0 80px 0;
-    }
-
-    50%{
-        width: 80px;
-        height: 120px;
-        border-radius: 75px 75px 0 0;
-    }
-
-    75%{
-        width: 200px;
-        height: 80px;
-        border-radius: 80px 0 0 0;
-    }
-
-    100%{
-        height: 100px;
-        width: 100px;
-        border-radius: 50px;
-    }
-}
-
-
-
-
-header{
-    display: flex;
-    justify-content: space-between;
-}
-
-header a{
-    z-index: 99;
-}
-
-.title{
-    position: absolute;
-    text-align: center;
-    padding: 35px 0;
-    width: 100vw;
-    height: 130px;
-}
-
-.title h1{
-    color: #75501c;
-}
-
-.header_left{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: hsla(130, 12%, 80%, 0.707);
-    height: max-content;
-    padding: 0 50px 0 50px;
-    border-radius: 0 0 200px 0;
-    width: 70vw;
-}
-
-.header_right{
-    z-index: 99;
-}
-
-.header_right a{
-    font-size: 1.2em;
-}
-
-header ul{
-    list-style: none;
-    height: fit-content;
-    width: fit-content;
-    background-color: hsla(130, 12%, 80%, 0.707);
-    border-radius: 0 0 0 200px;
-    padding: 50px 50px 100px 50px;
-    float: right;
-}
-
-header ul li{
-    text-align: right;
-    margin-bottom: 30px;
-    font-style: italic;
-}
-
-.description{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.description_static{
-    text-align: center;
-    width: 50%;
-}
-
-
-
 /* --------------------------------------------------------- */
 
 
@@ -182,7 +49,10 @@ section{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 200px 0 200px 0;
+    padding: 180px 0;
+    background-image: url(../img/gear1.jpg);
+    background-repeat: no-repeat;
+    background-position-y: center;
 }
 
 section div{
@@ -193,6 +63,7 @@ section div{
     border: 5px solid #366c60bf;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.74);
     padding: 20px;
+    backdrop-filter: blur(8px);
 }
 
 .first{
@@ -220,73 +91,9 @@ section div{
     text-align: right;
 }
 
-
-
-
-/* -------------------------------------------------------------------------- */
-
-
-
-
-footer{
-    height: fit-content;
-    background-color: #e9dccf;
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
-}
-
-footer img{
-    height: 30%;
-}
-
-.google_maps{
-    width: 40vw;
-}
-
-.google_maps_content iframe{
-    box-shadow: 20px 20px 0 #366c5f;
-}
-
-.info{
-    width: 40vw;
-}
-
-.logo_small{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 20vw;
-}
-
-.info_1{
-    width: 400px;
-    height: 150px;
-    background-color: #8fc0ad;
-    padding: 20px;
+li a{
     font-size: .8em;
-    border-radius: 0 150px 0 0;
-    margin-bottom: 40px;
-    float: right;
-}
-
-.info_1 p{
-    text-align: left;
-}
-
-.info_2{
-    width: 400px;
-    height: 150px;
-    background-color: #8fc0ad;
-    padding: 20px;
-    font-size: .8em;
-    text-align: right;
-    border-radius: 0 0 0 150px;
-    float: right;
-}
-
-.info_2 p{
-    text-align: right;
+    color: black;
 }
 
 

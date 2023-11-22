@@ -502,46 +502,6 @@ section{
         height: 320px;
     }
 
-
-
-    /* --------------------------------------------------------- */
-
-
-
-    footer{
-        flex-direction: column;
-        padding: 20px;
-        justify-content: normal;
-        align-items: center;
-    }
-
-    .google_maps{
-        width: auto;
-        margin: 20px 20px;
-    }
-
-    footer iframe{
-        width: 100%;
-        height: 100%;
-    }
-
-    .logo_small{
-        justify-content: center;
-        width: auto;
-        padding: 100px 0;
-    }
-
-    .info{
-        width: auto;
-    }
-
-    .info_1{
-        width: 350px;
-    }
-
-    .info_2{
-        width: 350px;
-    }
 }
 
 
@@ -637,44 +597,4 @@ section{
         font-size: .7em;
     }
 
-
-
-    /* --------------------------------------------------------- */
-
-
-
-    footer{
-        flex-direction: column;
-        padding: 20px;
-        justify-content: normal;
-        align-items: center;
-    }
-
-    .google_maps{
-        width: auto;
-        margin: 20px 20px;
-    }
-
-    footer iframe{
-        width: 100%;
-        height: 100%;
-    }
-
-    .logo_small{
-        justify-content: center;
-        width: auto;
-        padding: 100px 0;
-    }
-
-    .info{
-        width: auto;
-    }
-
-    .info_1{
-        width: 350px;
-    }
-
-    .info_2{
-        width: 350px;
-    }
 }
