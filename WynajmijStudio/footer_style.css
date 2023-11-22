@@ -1,6 +1,6 @@
 footer{
     height: fit-content;
-    background-color: #e9dccf;
+    background-color: var(--icon_footer);
     display: flex;
     justify-content: space-between;
     padding: 50px;
@@ -15,7 +15,7 @@ footer img{
 }
 
 .google_maps_content iframe{
-    box-shadow: 20px 20px 0 #366c5f;
+    box-shadow: 20px 20px 0 var(--google_map);
 }
 
 .info{
@@ -32,7 +32,7 @@ footer img{
 .info_1{
     width: 400px;
     height: 150px;
-    background-color: #8fc0ad;
+    background-color: var(--addons);
     padding: 20px;
     font-size: .8em;
     border-radius: 0 150px 0 0;
@@ -47,7 +47,7 @@ footer img{
 .info_2{
     width: 400px;
     height: 150px;
-    background-color: #8fc0ad;
+    background-color: var(--addons);
     padding: 20px;
     font-size: .8em;
     text-align: right;

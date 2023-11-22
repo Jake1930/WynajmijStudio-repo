@@ -27,7 +27,7 @@ p{
 
 a{
     text-decoration: none;
-    color: #75501c;
+    color: var(--font);
 }
 
 ul{
@@ -76,9 +76,9 @@ section{
 section div{
     width: 600px;
     height: 600px;
-    background-color: hsla(130, 12%, 80%, 0.707);
+    background-color: var(--header_main);
     margin: 30px;
-    border: 5px solid #366c60bf;
+    border: 5px solid var(--google_map);
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.74);
     padding: 20px;
     backdrop-filter: blur(8px);

@@ -27,13 +27,13 @@ p{
 
 a{
     text-decoration: none;
-    color: #75501c;
+    color: var(--font);
 }
 
 ion-icon{
     position: relative;
     font-size: 40px;
-    color: #dac2a8;
+    color: var(--icon_footer);
 }
 
 strong{
@@ -103,7 +103,7 @@ ul{
     list-style: none;
     height: fit-content;
     width: fit-content;
-    background-color: hsla(130, 12%, 80%, 0.707);
+    background-color: var(--header_main);
     border-radius: 0 0 0 200px;
     padding: 50px 50px 100px 50px;
     float: right;
@@ -148,7 +148,7 @@ section{
     left: 10px;
     height: 120px;
     width: 120px;
-    background-color: #8fc0ad;
+    background-color: var(--addons);
     border-radius: 100px;
 }
 
@@ -213,7 +213,7 @@ section{
     width: 250px;
     height: 80px;
     border-radius: 0 80px 80px 0;
-    background-color: #8fc0ad;
+    background-color: var(--addons);
 }
 
 
@@ -241,7 +241,7 @@ section{
 }
 
 .title a{
-    color: #75501c;
+    color: var(--font);
 }
 
 .contact form{
@@ -252,7 +252,7 @@ section{
 
 .contact form input{
     border: 0;
-    border-bottom: 3px solid #8fc0ad;
+    border-bottom: 3px solid var(--addons);
     width: 500px;
     margin-bottom: 20px;
     background-color: #fff;
@@ -262,7 +262,7 @@ section{
 
 .contact form textarea{
     border: 0;
-    border-bottom: 3px solid #8fc0ad;
+    border-bottom: 3px solid var(--addons);
     width: 500px;
     height: 50px;
     background-color: #fff;
@@ -282,13 +282,13 @@ section{
     width: 200px;
     height: 80px;
     border-radius: 0 80px 0 0;
-    background-color: #8fc0ad;
+    background-color: var(--addons);
     font-size: .8em;
     font-weight: bolder;
     padding: 5px;
     border: none;
     cursor: pointer;
-    color: #75501c;
+    color: var(--font);
     transition: .2s;
 }
 
@@ -302,17 +302,17 @@ section{
     height: 80px;
     border-radius: 0 0 0 80px;
     background-color: white;
-    border: 3px solid #8fc0ad;
+    border: 3px solid var(--addons);
     font-size: .8em;
     font-weight: bolder;
     padding: 5px;
     cursor: pointer;
-    color: #75501c;
+    color: var(--font);
     transition: .2s;
 }
 
 .button_clear:hover{
-    background-color: #8fc0ad;
+    background-color: var(--addons);
     transition: .2s;
     border-radius: 80px;
 }

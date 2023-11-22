@@ -1,0 +1,31 @@
+/* MAIN COLORS */
+:root{
+    --font: #75501c;
+    --icon_footer: #e9dccf;
+    --header: #D7E0D8;
+    --header_main: hsla(130, 12%, 80%, 0.707);
+    --google_map: #366c5f;
+    --addons: #8fc0ad;
+}
+
+/* CHRISTMAS */
+
+/* :root{
+    --font: #75501c;
+    --icon_footer: #e9dccf;
+    --header: #D7E0D8;
+    --header_main: hsla(130, 12%, 80%, 0.707);
+    --google_map: #366c5f;
+    --addons: #8fc0ad;
+}
+
+/* VALENTINES */
+
+/* :root{
+    --font: #75501c;
+    --icon_footer: #e9dccf;
+    --header: #D7E0D8;
+    --header_main: hsla(130, 12%, 80%, 0.707);
+    --google_map: #366c5f;
+    --addons: #8fc0ad;
+} */

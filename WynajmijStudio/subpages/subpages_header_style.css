@@ -16,14 +16,14 @@ header a{
 }
 
 .title h1{
-    color: #75501c;
+    color: var(--font);
 }
 
 .header_left{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: hsla(130, 12%, 80%, 0.707);
+    background-color: var(--header);
     height: max-content;
     padding: 10px 50px 10px 50px;
     border-radius: 0 0 200px 0;
@@ -42,7 +42,7 @@ header ul{
     list-style: none;
     height: fit-content;
     width: fit-content;
-    background-color: hsla(130, 12%, 80%, 0.707);
+    background-color: var(--header);
     border-radius: 0 0 0 200px;
     padding: 50px 50px 100px 50px;
     float: right;
