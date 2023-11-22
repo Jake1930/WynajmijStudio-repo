@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="gear_style.css">
+    <link rel="stylesheet" type="text/css" href="../preloader_style.css">
     <title>Wynajmij Studio sprzęt</title>
 </head>
 <body>
@@ -116,16 +117,6 @@
 
 
 
-    <script>
-        const preloader = document.querySelector('#preloader');
-
-        preloader.classList.add('show-preloader');
-
-        window.addEventListener('load', function () {
-            setTimeout(function(){
-    	preloader.classList.remove('show-preloader');
-	    }, 500);
-        });
-    </script>
+    <script src="../script.js"></script>
 </body>
 </html>
