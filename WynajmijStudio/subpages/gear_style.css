@@ -34,6 +34,24 @@ ul{
     list-style: none;
 }
 
+/* --------------------------------------------------------- */
+
+
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description_static{
+    text-align: center;
+    width: 50%;
+}
+
+.description_static p{
+    font-size: 1em;
+}
+
 
 
 /* --------------------------------------------------------- */
