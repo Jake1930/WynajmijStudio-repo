@@ -37,7 +37,6 @@ ion-icon{
 }
 
 
-
 header{
     height: 110vh;
     width: 100vw;
@@ -112,7 +111,7 @@ ul li{
     font-style: italic;
 }
 
-/* -------------------------------------------------------------- */
+/* ------------------------------MAIN SECTION-------------------------------- */
 
 section{
     margin-top: 60px;
@@ -165,69 +164,6 @@ section{
 
 /* -------------------------------------------------------------- */
 
-
-footer{
-    height: fit-content;
-    background-color: #e9dccf;
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
-}
-
-footer img{
-    height: 30%;
-}
-
-.google_maps{
-    width: 40vw;
-}
-
-.google_maps_content iframe{
-    box-shadow: 20px 20px 0 #366c5f;
-}
-
-.info{
-    width: 40vw;
-}
-
-.logo_small{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 20vw;
-}
-
-.info_1{
-    width: 400px;
-    height: 150px;
-    background-color: #8fc0ad;
-    padding: 20px;
-    font-size: .8em;
-    border-radius: 0 150px 0 0;
-    margin-bottom: 40px;
-    float: right;
-}
-
-.info_1 p{
-    text-align: left;
-}
-
-.info_2{
-    width: 400px;
-    height: 150px;
-    background-color: #8fc0ad;
-    padding: 20px;
-    font-size: .8em;
-    text-align: right;
-    border-radius: 0 0 0 150px;
-    float: right;
-}
-
-.info_2 p{
-    text-align: right;
-}
-
-/* ------------------------------------------------------------ */
 
 .price_and_contact{
     padding: 0;
@@ -343,6 +279,11 @@ footer img{
     border: none;
     cursor: pointer;
     color: black;
+    transition: .5s;
+}
+
+.button_submit:hover span:nth-child(1){
+    transform: translateY(30px) scale(2);
 }
 
 .button_clear{
@@ -405,6 +346,15 @@ footer img{
     height: 200px;
     padding: 20px 0;
     text-align: center;
+}
+
+.team_person_description h3{
+    font-size: .8em;
+}
+
+.team_person_description p{
+    margin-top: 10px;
+    font-size: .5em;
 }
 
 
