@@ -54,13 +54,12 @@ ul{
 }
 
 section img{
-    /* width: 25vw; */
     width: 400px;
     margin: 10px;
 }
 
 .horizontal{
-    width: 54.5vw;
+    width: 820px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,7 +67,6 @@ section img{
 }
 
 .horizontal img{
-    /* width: 60vw; */
     width: 820px;
     margin: 10px;
 }

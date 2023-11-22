@@ -240,6 +240,10 @@ section{
     font-weight: 200;
 }
 
+.title a{
+    color: #75501c;
+}
+
 .contact form{
     display: flex;
     flex-direction: column;
