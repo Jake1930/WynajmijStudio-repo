@@ -59,3 +59,26 @@
         border-radius: 50px;
     }
 }
+
+/* NAVBAR */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #fff;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #8fc0ad;
+    border-radius: 0 10px 0 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
