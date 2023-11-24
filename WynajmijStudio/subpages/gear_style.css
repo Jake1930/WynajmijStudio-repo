@@ -130,11 +130,23 @@ section div{
         margin-top: 50px;
     }
 
+    .description_static p{
+        font-size: .8em;
+    }
+
     .gear{
         margin: 100px 0;
     }
 
     section div{
         padding: 14px;
+    }
+
+    .gear li{
+        font-size: .6em;
+    }
+
+    .fourth{
+        padding-right: 105px;
     }
 }

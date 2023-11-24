@@ -6,6 +6,7 @@
     --header_main: hsla(130, 12%, 80%, 0.707);
     --google_map: #366c5f;
     --addons: #8fc0ad;
+    --events_bg: url(../img/eventy1.jpg);
 }
 
 /* CHRISTMAS */
@@ -17,6 +18,7 @@
     --header_main: hsla(130, 12%, 80%, 0.707);
     --google_map: #366c5f;
     --addons: #8fc0ad;
+    --events_bg: url(../img/eventy1.jpg);
 }
 
 /* VALENTINES */
@@ -27,5 +29,6 @@
     --header: #D7E0D8;
     --header_main: hsla(130, 12%, 80%, 0.707);
     --google_map: #366c5f;
-    --addons: #8fc0ad;
+    --addons: ##FFAEC9;
+    --events_bg: url(../img/eventy2.jpg);
 } */

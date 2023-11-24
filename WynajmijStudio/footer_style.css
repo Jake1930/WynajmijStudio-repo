@@ -96,6 +96,10 @@ footer img{
     .info_2{
         width: 350px;
     }
+
+    .info_1 p, .info_2 p{
+        font-size: .6em;
+    }
 }
 
 
