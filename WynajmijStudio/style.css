@@ -179,7 +179,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .price h2{
@@ -224,6 +224,7 @@ section{
     align-items: center;
     padding: 0 50px 0 0;
     justify-content: space-between;
+    height: fit-content;
 }
 
 .title{
@@ -250,71 +251,23 @@ section{
     align-items: flex-start;
 }
 
-.contact form input{
-    border: 0;
-    border-bottom: 3px solid var(--addons);
+.terminy24{
+    height: 650px;
     width: 500px;
-    margin-bottom: 20px;
-    background-color: #fff;
-    font-style: italic;
-    padding: 10px 0;
 }
 
-.contact form textarea{
-    border: 0;
-    border-bottom: 3px solid var(--addons);
-    width: 500px;
-    height: 50px;
-    background-color: #fff;
-    font-style: italic;
-    padding: 5px 0;
-    resize: vertical;
-}
-
-.buttons{
-    width: 500px;
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.button_submit{
-    width: 200px;
+.box_thing_one{
+    width: 220px;
     height: 80px;
-    border-radius: 0 80px 0 0;
     background-color: var(--addons);
-    font-size: .8em;
-    font-weight: bolder;
-    padding: 5px;
-    border: none;
-    cursor: pointer;
-    color: var(--font);
-    transition: .2s;
+    border-radius: 0 100px 0 0;
 }
 
-.button_submit:hover{
-    border-radius: 80px;
-    transition: .2s;
-}
-
-.button_clear{
-    width: 200px;
+.box_thing_two{
+    width: 220px;
     height: 80px;
-    border-radius: 0 0 0 80px;
-    background-color: white;
-    border: 3px solid var(--addons);
-    font-size: .8em;
-    font-weight: bolder;
-    padding: 5px;
-    cursor: pointer;
-    color: var(--font);
-    transition: .2s;
-}
-
-.button_clear:hover{
-    background-color: var(--addons);
-    transition: .2s;
-    border-radius: 80px;
+    border: 2px solid var(--addons);
+    border-radius: 0 0 0 100px;
 }
 
 
@@ -458,6 +411,10 @@ section{
     /* ---------------------------------------------- */
 
 
+    .terminy24{
+        height: 650px;
+        width: 350px;
+    }
 
     .price_and_contact{
         padding-top: 50px;
@@ -490,23 +447,6 @@ section{
         width: 300px;
         height: 50px;
         font-size: .8em;
-    }
-
-
-    .buttons{
-        width: 300px;
-    }
-    
-    .button_submit{
-        width: 150px;
-        height: 60px;
-        font-size: .6em;
-    }
-    
-    .button_clear{
-        width: 150px;
-        height: 60px;
-        font-size: .6em;
     }
 
 
