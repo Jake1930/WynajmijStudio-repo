@@ -357,7 +357,7 @@ section{
     }
 
     li a{
-        font-size: .8em;
+        font-size: .5em;
     }
 
     header ul{
@@ -367,7 +367,7 @@ section{
     }
 
     header ul li{
-        margin-bottom: 15px;
+        margin-bottom: 5px;
     }
 
     header img{
